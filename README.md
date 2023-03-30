@@ -16,4 +16,4 @@ The photo album is a scalable web application designed and deployed using AWS se
 * Amazon Lex bot is created to handle search queries for which an intent called 'SearchIntent' is created and training utterances are added to the intent.
 
 ### Architecture
-### ![image](Architecture.png)
+![image](Architecture.png)
