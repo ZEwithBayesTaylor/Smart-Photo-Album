@@ -14,3 +14,6 @@ The photo album is a scalable web application designed and deployed using AWS se
 * Labels are detected in the image using Rekognition. A JSON object with a reference to each object in the S3 is stored in an OpenSearch index, for every label detected by the Rekognition service.
 * A lambda function called 'search-photos' is used as a code hook for the Lex service in order to detect the search keywords.
 * Amazon Lex bot is created to handle search queries for which an intent called 'SearchIntent' is created and training utterances are added to the intent.
+
+### Architecture
+### ![image](Architecture.png)
